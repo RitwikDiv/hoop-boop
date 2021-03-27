@@ -28,5 +28,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-bottom: 25px;
+  border-top-style: solid;
+  border-width: 6px;
+  border-color: #4281a4;
 }
 </style>
