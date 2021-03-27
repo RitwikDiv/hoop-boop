@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white box-shadow"
+    class="container d-flex flex-column flex-md-row align-items-center p-2 px-md-4 mb-1 bg-white box-shadow"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,10 +18,10 @@
       {{ name }}
     </h1>
     <nav class="my-4 my-md-4">
-      <router-link to="/home" class="p-2 nav-item mr-3">
+      <router-link to="/home" class="nav-item mr-4">
         <strong>memories</strong>
       </router-link>
-      <router-link to="/notes" class="p-2 nav-item ml-3">
+      <router-link to="/notes" class="nav-item ml-4">
         <strong>notes</strong>
       </router-link>
     </nav>

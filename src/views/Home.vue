@@ -1,11 +1,9 @@
 <template>
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-lg-4">
-        <div class="position-fixed"></div>
-      </div>
-      <div class="col-lg-8"></div>
+  <div class="container row">
+    <div class="col-lg-3">
+      <div class="map position-fixed"></div>
     </div>
+    <div class="col-lg-9 overflow-auto"></div>
   </div>
 </template>
 

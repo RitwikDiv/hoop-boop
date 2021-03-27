@@ -1,8 +1,8 @@
 <template>
-  <div id="d-flex flex-row">
-    <Navbar />
+  <div id="container">
+    <Navbar class="sticky-top" />
     <router-view />
-    <Footer />
+    <Footer class="fixed-bottom" />
   </div>
 </template>
 
@@ -28,8 +28,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-bottom: 25px;
-  border-top-style: solid;
-  border-width: 6px;
-  border-color: #355070;
 }
 </style>

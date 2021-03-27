@@ -1,13 +1,12 @@
 <template>
-  <footer class="footer mt-5 p-3">
+  <footer class="blog-footer">
     <hr />
-    <div class="container mt-4">
+    <div class="container align-top">
       <div class="row">
         <div class="col-sm">
-          <p class="align-middle text-left text-muted">
+          <p class="align-middle text-center text-muted">
             <strong
-              >Hoop-Boop is an app where loved ones can see and mark the
-              memories they share. Created by
+              >Created by
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -31,16 +30,6 @@
             </strong>
           </p>
         </div>
-        <div class="col-sm align-middle text-right">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-outline-regular btn-sm ml-3 mr-3"
-            href="mailto:ritwik.social@gmail.com"
-            role="button"
-            ><strong>Talk to me!</strong></a
-          >
-        </div>
       </div>
     </div>
   </footer>
@@ -54,8 +43,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.footer {
-  bottom: 20px;
+.blog-footer {
+  bottom: 0px;
+  background-color: white;
 }
 
 .btn-outline-regular {
