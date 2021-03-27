@@ -30,6 +30,6 @@ export default {
   margin-bottom: 25px;
   border-top-style: solid;
   border-width: 6px;
-  border-color: #4281a4;
+  border-color: #355070;
 }
 </style>
