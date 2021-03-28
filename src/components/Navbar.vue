@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container d-flex flex-column flex-md-row align-items-center p-2 px-md-4 mb-1 bg-white box-shadow"
+    class="container d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-1 bg-white box-shadow"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ export default {
   transition: all 0.2s ease-in-out 0s;
 }
 
-a:hover::before {
+.nav-item:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
