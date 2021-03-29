@@ -48,6 +48,7 @@
     <button type="button" class="btn btn-dark mt-2" @click="handleSubmitForm">
       <strong>Submit</strong>
     </button>
+    <hr />
   </form>
 </template>
 
