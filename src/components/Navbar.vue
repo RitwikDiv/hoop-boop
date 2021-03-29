@@ -41,10 +41,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 .heading {
-  font-family: "Oleo Script", cursive;
+  font-family: "Lobster", cursive;
   font-weight: 700;
   color: #355070;
 }
