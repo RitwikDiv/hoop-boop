@@ -31,6 +31,7 @@
         class="form-control"
         v-model="memory.date"
         id="memory-date"
+        placeholder="mm/dd/yyyy"
         required
       />
     </div>

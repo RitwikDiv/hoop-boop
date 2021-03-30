@@ -155,7 +155,7 @@ export default {
 
 <style scoped>
 #map {
-  height: 600px;
+  height: 700px;
   width: 500px;
   border-radius: 5px;
 }
